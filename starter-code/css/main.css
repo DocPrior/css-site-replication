@@ -5,7 +5,6 @@ light blue: #1c5380
 */
 
 body * {
-    position: relative;
     box-sizing: border-box;
 }
 
@@ -44,14 +43,10 @@ button {
   background-color: #1c5380;
   border: 0.5px solid #06365f;
   border-radius: 10%;
-  position: absolute;
-  bottom: 72%;
-  right: 20.5%;
 }
 
 ul li {
-  float: left;
-  clear: none;
+  
 }
 
 h2 {
@@ -61,16 +56,10 @@ h2 {
 
 nav {
     position: absolute;
-    top: 98%;
-    left: 25%;
 }
 
 .store-links {
-    float: right;
-    clear: both;
-    right: 30%;
-    position: absolute;
-    top: 85.5%;
+
 }
 
 .main {
@@ -78,14 +67,10 @@ nav {
   background-repeat: no-repeat;
   overflow: hidden;
   box-sizing: border-box;
-  float: right;
   max-width: 500px;
   text-align: left;
   font-size: 12px;
   padding: 20px;
-  position: absolute;
-  right: 20%;
-  top: 32%;
 }
 
 .main h2 {
@@ -96,19 +81,11 @@ nav {
 }
 
 [alt = Instagram] {
-    float: right;
-    clear: both;
-    position: absolute;
-    right: 33.5%;
-    bottom: 70%;
+
 }
 
 [alt = phones] {
-  float: left;
-  clear: both;
-  position: absolute;
-  left: 15%;
-  top: 16%;
+
 }
 
 a img {
