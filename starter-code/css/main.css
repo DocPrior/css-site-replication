@@ -4,15 +4,19 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body * {
+/*body * {
     box-sizing: border-box;
-}
+}*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background: url("../images/bgtile.png");
   background-repeat: repeat-x;
+}
+
+.box {
+    margin: 55px 250px;
 }
 
 p {
@@ -37,29 +41,28 @@ li {
   font-size: small;
 
 }
-
 button {
-  color: white;
-  background-color: #1c5380;
-  border: 0.5px solid #06365f;
-  border-radius: 10%;
-}
-
-ul li {
-  
+    color: white;
+    background-color: #1c5380;
+    border: 0.5px solid #06365f;
+    border-radius: 10%;
+    display: inline-block;
+    margin-left: 420px;
 }
 
 h2 {
     margin-top: 12px;
     margin-bottom: auto;
 }
-
-nav {
-    position: absolute;
+footer {
+    display: block;
+    clear: both;
+    text-align: center;
 }
 
-.store-links {
-
+.instlogin {
+    float: right;
+    max-width: 500px;
 }
 
 .main {
@@ -71,6 +74,8 @@ nav {
   text-align: left;
   font-size: 12px;
   padding: 20px;
+  float: right;
+  clear: both;
 }
 
 .main h2 {
@@ -80,14 +85,21 @@ nav {
   padding: 0 175px 0 0;
 }
 
-[alt = Instagram] {
-
+.store-links {
+  position: absolute;
+  top: 128%;
+  left: 46%;
 }
 
-[alt = phones] {
-
+[alt = Instagram] {
+  float: left;
+  margin-top: 20px;
 }
 
 a img {
     margin-right: 15px;
+}
+
+.content {
+  float:right;
 }
