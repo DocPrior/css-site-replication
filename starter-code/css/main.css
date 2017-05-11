@@ -25,6 +25,13 @@ span {
   clear: both;
 }
 
+ul li {
+  list-style: none;
+  text-transform: uppercase;
+  color: #1c5380;
+  display: inline-block;
+}
+
 .store-links {
     float: right;
     clear: both;
@@ -45,4 +52,9 @@ span {
 .main h2 {
   color: #06365f;
   text-align: left;
+}
+
+[alt = Instagram], button{
+    float: right;
+    clear: both;
 }
