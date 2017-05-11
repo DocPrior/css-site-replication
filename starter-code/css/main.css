@@ -36,7 +36,10 @@ span {
   overflow: hidden;
   box-sizing: border-box;
   float: right;
-  max-width: 400px;
+  max-width: 500px;
+  text-align: left;
+  font-size: 12px;
+  padding: 20px;
 }
 
 .main h2 {
